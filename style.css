@@ -36,7 +36,7 @@ background-color: white;
 }
 
 header{
-    background-color: linear-gradient(18deg; rgba(255,82,93,1) 35%, rgba(255,122,133,1) 100%);
+    background-color: magenta;
     color: white;
     position: relative;
 }
@@ -87,8 +87,8 @@ header{
 
 #subtitle {
   text-align: center;
-  margin: 0 auto;
-  border: 1px solid magenta;
+  margin: 2rem auto;
+  /* border: 1px solid magenta; */
 }
 
 .container {
@@ -103,4 +103,30 @@ header{
 
 .header-container p {
   margin-top: 1.5rem;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3rem;
+  justify-items: center;
+  padding: 3rem;
+  background-color: black ;
+  color: white;
+  border-top-right-radius: 5rem;
+}
+
+footer ul{
+  list-style: none;
+margin-top: 3rem;
+}
+
+footer ul li a{
+
+color: white;
+text-decoration: none;
+}
+
+footer ul li{
+  margin-top: 1rem;
 }
