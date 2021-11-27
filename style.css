@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Spartan', sans-serif;
+}
+
+/* nav bar */
+
+nav {
+  padding: 1rem 0rem;
+  border: 1px solid magenta;
+}
+.nav-inner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#logo {
+  padding-right: 60px;
+  font-weight:800;
+}
+
+button{
+padding: 0.6rem 1.2rem;
+margin: 0.25rem;
+border-radius: 1.2rem;
+border: 1px solid red;
+background-color: white;
+}
+
+header{
+    background-color: linear-gradient(18deg; rgba(255,82,93,1) 35%, rgba(255,122,133,1) 100%);
+    color: white;
+    position: relative;
+}
+
+
+#nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.text-nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.single-link {
+  margin: 1rem;
+}
+
+.single-link a {
+  text-decoration: none;
+  color: black;
+}
+
+/* main section  */
+
+.main-header {
+  display: flex;
+  flex-direction: column; /* to display verticalment   */
+  align-items: center;
+  border: 1px solid magenta;
+}
+
+.main-header h1 {
+  margin-top: 3rem;
+}
+
+.main-header p {
+  margin: 1rem;
+}
+
+#btn-head-container {
+  margin-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+/* section id="container" */
+
+#subtitle {
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid magenta;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 8rem;
+}
+
+.header-container h3 {
+  margin-top: 2.5rem;
+}
+
+.header-container p {
+  margin-top: 1.5rem;
+}
